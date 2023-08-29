@@ -1,0 +1,202 @@
+<html>
+<head>
+<style>
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: jokerman;
+ padding: 10px;
+ background: gold;
+}
+
+/* Header/Blog Title */
+.header {
+ padding: 0px;
+ text-align: center;
+ background: silver;
+}
+
+.header h1 {
+ font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+ overflow: hidden;
+ background-color: pink;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+ float: left;
+ display: block;
+ color: green;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+ background-color: blue;
+ color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+ float: left;
+ width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+ float: left;
+ width: 25%;
+ background-color: gold;
+ padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+ background-color: red;
+ width: 100%;
+ padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+ background-color: white;
+ padding: 20px;
+ margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* Footer */
+.footer {
+ padding: 20px;
+ text-align: center;
+ background: black;
+ color:white;
+ margin-top: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on
+top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+ .leftcolumn, .rightcolumn {
+ width: 100%;
+ padding: 0;
+ }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack
+on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+ .topnav a {
+ float: none;
+ width: 100%;
+ }
+
+table,th,td{
+
+padding:00px;
+
+}
+
+th,td{
+text-align:left;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+
+ <img src="./4to/30.jpg" width=100% hight=30% alt="rice">
+ <h2>Best recipes in Sri lanka.</h2>
+
+</div>
+
+<div class="topnav">
+ <a href="home.html">Home</a>
+ <a href="about.html">About us</a>
+ <a href="contact.html">Contact us</a>
+ <a href="time.html">Time</a>
+ <a href="recipi.html">Resipes</a>
+ <a href="new.html" style="float:right">New Food</a>
+</div>
+
+<div class="row">
+ <div class="leftcolumn">
+ <div class="card">
+ <h2>New Dishers</h2>
+ <h5>From 6th January, we’re staying open but with a few changes</h5>
+
+ <img src="./4to/4.jpg" width=20% hight=10% alt="rice"> 
+ <img src="./4to/5.jpg" width=20% hight=10% alt="rice"> 
+ <img src="./4to/6.jpg" width=20% hight=10% alt="rice"> 
+ <img src="./4to/7.jpg" width=20% hight=10% alt="rice"> 
+ <p>Our restaurants across the UK & Ireland will be open for Drive-thru and UCDelivery 
+Click & Serve through the My Unicokitchen App will be available at our Drive-thru restaurants.
+Dine-in and Walk-in takeaway service will be temporarily closed in all restaurants from 11 p.m. tonight (5th January) while we review and verify any additional enhanced safety measures for these services 
+With smaller teams and social distancing in the kitchen it will take longer to serve you.
+</p>
+ <p></p>
+ </div>
+ 
+<div class="card">
+ <h2>Family Hub</h2>
+ <h3>Offer with New Year  at January 2021</h3>
+ <div class="fakeimg" style="height:300px;">
+ <img src="./4to/9.jpg" width=20% hight=10% alt="rice">
+ <img src="./4to/10.jpg" width=20% hight=10% alt="rice">
+ <img src="./4to/11.jpg" width=20% hight=10% alt="rice">
+ <img src="./4to/8.jpg" width=20% hight=10% alt="rice">
+ </div>
+ <p>The Spicy Veggie One
+Tasty Veggie Dippers with spicy relish, crisp lettuce and tomato, all wrapped up in a soft, toasted tortilla wrap, and vegan certified by the Vegetarian Society. Wrap of the Day every Monday and Thursday!The Spicy Veggie One. 
+The Family Fun Hub is packed with creative and interactive activities, games, eBooks and videos – hours of enjoyment for the whole family.
+</p>
+ <p></p>
+ </div>
+ </div>
+
+ <div class="rightcolumn">
+ <div class="card">
+ <h2>About Me</h2>
+ <div class="fakeimg" style="height:300px;"> 
+ <img src="./4to/1.jpg" width=100% hight=100% alt="rice"> </div>
+ <p>What goes into our food? Nothing but quality ingredients. 100% chicken breast meat & whole cuts of British and Irish beef.</p>
+ </div>
+
+ <div class="card">
+ <h3>Cotact Us</h3>
+ <div class="fakeimg"><p>Time</p><img src="./4to/time.jpg" width=50% hight=50% alt="rice"></div>
+ <div class="fakeimg"><p>Prize</p><a href="Prize.html">See more..</a></div>
+ <div class="fakeimg"><p>Dessert</p><a href="dessert.html">See more..</a></div>
+ </div>
+
+ <div class="card">
+ <h3>Follow Me</h3>
+ <a href="follow.html">See more..</a>
+ </div>
+ </div>
+</div>
+
+<div class="footer">
+ <h3>Dilini Imesha</h3>
+
+</div>
+</body>
+</html>

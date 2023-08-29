@@ -1,0 +1,208 @@
+<html>
+<head>
+<style>
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: jokerman;
+ padding: 10px;
+ background: gold;
+}
+
+/* Header/Blog Title */
+.header {
+ padding: 30px;
+ text-align: center;
+ background: silver;
+}
+
+.header h1 {
+ font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+ overflow: hidden;
+ background-color: blue;
+}
+
+/* Style the topnav links */
+.topnav a {
+ float: left;
+ display: block;
+ color: green;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+ float: left;
+ width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+ float: left;
+ width: 25%;
+ background-color: #f1f1f1;
+ padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+ background-color: #aaa;
+ width: 100%;
+ padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+ background-color: white;
+ padding: 20px;
+ margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* Footer */
+.footer {
+ padding: 20px;
+ text-align: center;
+ background: #ddd;
+ margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on
+top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+ .leftcolumn, .rightcolumn {
+ width: 100%;
+ padding: 0;
+ }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack
+on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+ .topnav a {
+ float: none;
+ width: 100%;
+ }
+
+table,th,td{
+padding:10px;
+
+}
+
+th,td{
+text-align:left;
+}
+
+</style>
+</head>
+
+<body>
+<div class="header">
+ <img src="./4to/30.jpg" width=100% hight=30% alt="rice">
+ <h2>Best recipes in Sri lanka.</h2>
+ 
+
+</div>
+
+<div class="topnav">
+ <a href="home.html">Home</a>
+ <a href="about.html">About us</a>
+ <a href="contact.html">Contact us</a>
+ <a href="time.html">Time</a>
+ <a href="recipi.html">Resipes</a>
+ <a href="new.html" style="float:right">New Food</a>
+</div>
+
+<h2><center>DESSERT</center></h2>
+
+<table style="width=90%">
+<tr>
+<td>
+<a target="-blank" href="./4to/a.jpg">
+<img src="./4to/a.jpg" width="400" height="400>"
+<div class="card"><p>Ice Cream</p>Rs.350</div>
+</div>
+ </td>
+
+<td>
+<a target="-blank" href="./4to/b.jpg">
+<img src="./4to/b.jpg" width="400" height="400>"
+<div class="card"><p>vanila cake</p>Rs.350</div>
+</div>
+ </td>
+
+
+<td>
+<a target="-blank" href="./4to/c.jpg">
+<img src="./4to/c.jpg" width="400" height="400>"
+<div class="card"><p>Mix fruit</p>Rs.550</div>
+</div>
+ </td>
+
+<td>
+<a target="-blank" href="./4to/d.jpg">
+<img src="./4to/d.jpg" width="400" height="400>"
+<div class="card"><p>chocelete </p>Rs.1500</div>
+</div>
+ </td>
+</tr>
+
+<tr>
+<td>
+<a target="-blank" href="./4to/f.jpg">
+<img src="./4to/f.jpg" width="400" height="400>"
+<div class="card"><p>Fruit cone</p>Rs.450</div>
+</div>
+ </td>
+
+<td>
+<a target="-blank" href="./4to/e.jpg">
+<img src="./4to/e.jpg" width="400" height="400>"
+<div class="card"><p>One choco</p> Rs.450</div>
+</div>
+ </td>
+
+<td>
+<a target="-blank" href="./4to/g.jpg">
+<img src="./4to/g.jpg" width="400" height="400>"
+<div class="card"><p> Mix ice cream</p>Rs.1000</div>
+</div>
+ </td>
+
+<td>
+<a target="-blank" href="./4to/h.jpg">
+<img src="./4to/h.jpg" width="400" height="400>"
+<div class="card"><p>ice coffe</p>Rs.500</div>
+</div>
+ </td>
+
+</div>
+
+<div class="footer">
+ <h2>Dilini Imesha</h2>
+
+</div>
+</body>
+</html>
